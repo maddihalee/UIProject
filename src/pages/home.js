@@ -4,10 +4,11 @@ export default function Home() {
   return (
     <>
      <div className='box'>
+      <a href="/pages/username">
       <Button className='get-started'> 
-        {/* Make route to /username */}
         Get started!
       </Button>
+      </a>
      </div>
     </>
   )
