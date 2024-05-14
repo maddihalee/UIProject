@@ -8,7 +8,6 @@ import Home from "./pages/home";
 import Confirmation from "./pages/confirmation";
 import Password from "./pages/password";
 import Username from "./pages/username";
-import Birthday from "./pages/birthday";
  
 function App() {
     return (
@@ -21,7 +20,6 @@ function App() {
                     element={<Password />}
                 />
                 <Route path="/pages/password" element={<Password />} />
-                <Route path="/pages/birthday" element={<Birthday />} />
                 <Route
                     path="/pages/confirmation"
                     element={<Confirmation />}
