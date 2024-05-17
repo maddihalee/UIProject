@@ -2,6 +2,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: whitesmoke;
 }
 
 body {
@@ -21,9 +22,19 @@ code {
 .box {
   width: 1000px;
   height: 500px;
-  background-color: grey; 
+  background-color: whitesmoke; 
   display: flex;
   justify-content: center;
   align-items: center; 
   margin: auto;
+  position: relative;
+}
+
+.progress {
+  position: absolute;
+  top: 10px; /* Adjust as necessary */
+  right: 10px; /* Adjust as necessary */
+  background-color: lightgray; /* Optional: Add a background color */
+  padding: 5px; /* Optional: Add some padding */
+  border-radius: 5px; /* Optional: Add some border radius */
 }
