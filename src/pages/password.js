@@ -5,6 +5,9 @@ export default function Username() {
   return (
     <>
     <div className="box">
+    <div className="progress">
+        Step 2/3
+      </div>
       <Form>
     <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>Password</Form.Label>
