@@ -20,7 +20,7 @@ export default function Username() {
       </Form.Group> 
       </Form>
       <a href="/pages/password">
-      <Button variant="primary" type="submit">
+      <Button variant="primary" type="submit" className="next-button">
         Next
       </Button>
       </a>

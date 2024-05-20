@@ -18,7 +18,7 @@ export default function Username() {
       </Form.Group>
       </Form>
       <a href="/pages/confirmation">
-      <Button variant="primary" type="submit">
+      <Button variant="primary" type="submit" className="next-button">
         Next
       </Button>
       </a>
