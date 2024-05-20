@@ -8,7 +8,7 @@ export default function Home() {
         Step 0/3
       </div>
       <a href="/pages/username">
-      <Button className='get-started'> 
+      <Button className="next-button"> 
         Get started!
       </Button>
       </a>
